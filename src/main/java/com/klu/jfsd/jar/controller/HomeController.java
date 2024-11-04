@@ -28,7 +28,7 @@ public class HomeController {
                 .append("Your User-Agent: ").append(userAgent).append("<br/>")
                 .append("HTTP Method: ").append(method).append("<br/>")
                 .append("Requested URI: ").append(requestedURI).append("<br/>")
-                .append("Other Data: ").append(clientIp).append("<br/>").append("Hello").append(request.getServerPort());
+                .append("Other Data: ").append(clientIp).append("<br/>").append("Hello <br/>").append(request.getServerPort());
         
 
         
